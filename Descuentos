@@ -1,0 +1,20 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int q, p, d;
+    cout<<"Ingrese la cantidad de camisas que se compraron: ";
+    cin>>q;
+    cout<<"Ingrese el precio unico unitario de la camisa: ";
+    cin>>p;
+    if(q>=3){
+        d=p*q-p*q*0.2;
+    }else{
+        d=p*q-p*q*0.1;
+    }
+    cout<<"El total a pagar con descuento es de: "<<d;
+    
+
+    return 0;
+}
